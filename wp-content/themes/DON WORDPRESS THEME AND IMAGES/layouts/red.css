@@ -1,6 +1,6 @@
 /*
  * TA Music WordPress Theme Stylesheet.
- * 
+ *
  * Red Color Scheme.
  *
  */
@@ -249,7 +249,7 @@ img { height: auto }
 
 #content {
     width: 1370px;
-    background: #1e1e1e;
+    background: #4c0303;
     margin: 0 auto;
     overflow: hidden;
     padding: 35px 0 135px;
@@ -432,7 +432,7 @@ img { height: auto }
 
 #main-nav ul.dropdown-menu li:last-child a { border-radius: 0 0 4px 4px }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
     .navbar-collapse .dropdown-menu {
         position: static;
         top: auto;
@@ -630,7 +630,8 @@ img { height: auto }
 
 .welcome-message {
     text-align: center;
-    padding: 50px 0 50px;
+    padding: 50px 50 50px;
+    background: rgba(40, 40, 40, 0.76);
 }
 
 .welcome-message p {
@@ -898,7 +899,7 @@ main h2 {
 6.0 Event Styles
 -------------------------------------------------------*/
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     #upcoming-events.list-style .event-image {
         float: left;
         width: 270px;
@@ -2031,7 +2032,7 @@ div#jp-relatedposts h3.jp-relatedposts-headline em:before { border-top: 1px soli
     margin: 60px -115px 0;
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
     #contact-map-container .address {
         top: 55%;
         left: 30%;
@@ -2080,7 +2081,7 @@ div#jp-relatedposts h3.jp-relatedposts-headline em:before { border-top: 1px soli
     margin-bottom: 100px;
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
     .error-404 h1 {
         font-size: 120px;
         margin-bottom: 60px;
@@ -2336,7 +2337,7 @@ ul.nav-tabs.outline-nav-tabs > li.active > a {
     color: white;
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
     ul.nav-tabs > li {
         float: none;
         border-top: 1px solid #0e0e0e;
